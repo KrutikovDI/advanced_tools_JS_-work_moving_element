@@ -1,0 +1,37 @@
+
+.playingField {
+  background-color: rgb(224, 202, 191);
+  height: 600px;
+  width: 599px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  cursor: url(../../pig/pngwing.png) 40 40, pointer;
+
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  margin: 20px 20px;
+  background: rgb(116, 116, 116);
+  border-radius: 50%;
+}
+
+.cellHasGoblin {
+  background-image: url(../../pig/goblin.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: brown;
+}
+
+.count {
+  font-size: 40px;
+  color: black
+}
+
+.count-text {
+  width: min-content;
+  display: inline-block;
+}
